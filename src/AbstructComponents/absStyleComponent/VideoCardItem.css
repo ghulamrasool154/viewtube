@@ -1,0 +1,135 @@
+ul.slick-dots li button:before{
+    display: none;
+}
+
+
+.video-item-card {
+    margin-bottom: 30px;
+    position: relative;
+}
+.video-item-card .video-thumb {
+    border-radius: 15px;
+    overflow: hidden;
+}
+.video-item-card .video-content {
+    padding-top: 20px;
+}
+.video-item-card .avatar {
+    overflow: hidden;
+    width: 40px;
+    display: inline-table;
+    margin-right: 15px;
+}
+.video-item-card .avatar img{
+    border-radius: 50%;
+}
+
+.video-item-card a{
+    text-decoration: none;
+}
+.video-item-card a h5{
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 0;
+    font-weight: 500;
+    font-family: Fira Sans Condensed;
+    text-decoration: none;
+    color: #333;
+}
+.list-inline {
+    padding-left: 0;
+    list-style: none;
+}
+.list-inline-item:not(:last-child) {
+    margin-right: 0.5rem;
+}
+.list-inline-item {
+    display: inline-block;
+}
+.video-item-card .author {
+    text-transform: capitalize;
+    font-size: 13px;
+    color: #212121;
+}
+.video-item-card .video-meta-bottom {
+    font-size: 13px;
+}
+
+
+
+
+.react-player__preview{
+    background-image: url(/public/images/3-MNAX1jgbA-210x120.jpg) !important;
+}
+.react-player__shadow {
+    background: red !important;
+    width: 50px !important;
+    height: 50px !important;
+    border-radius: 50%;
+}
+
+.react-player__shadow{
+    /* background-image: url(/public/images/thumbnail.png) !important; */
+}
+.react-player__play-icon{
+    /* display: none; */
+    border-width: 12px 0px 12px 20px !important;
+}
+
+.plyr__poster{
+ background-image: url(/public/images/ih6_YyRVtpI.jpg)
+}
+
+.plyr__poster {
+    /* background-image: url(/images/vGN6dixRBZA.jpg);  */
+    background-color: #000;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    transition: opacity .2s ease;
+    width: 100%;
+    z-index: -11;
+}
+
+
+.video-item-card .video-meta-bottom i{
+
+    font-size: 5px;
+    margin-top: 8px;
+}
+.ml-2, .mx-2 {
+    margin-left: 0.5rem!important;
+}
+.mr-2, .mx-2 {
+    margin-right: 0.5rem!important;
+}
+
+.tranding .videostyle {
+    height: 260px !important;
+}
+
+
+@media screen and (max-width : 1024px){
+    .tranding .videostyle{
+        height: 200px !important;
+    }
+
+
+    
+}
+
+@media screen and (max-width : 1024px){
+
+    .slick-slider.slick-initialized{
+        padding:  0;
+    }
+
+
+    
+}
+

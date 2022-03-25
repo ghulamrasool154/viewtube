@@ -1,0 +1,26 @@
+.related-posts {
+    padding: 30px;
+    margin-top: 50px;
+}
+
+.related-posts>h4 {
+    margin-bottom: 50px;
+    font-weight: bold;
+}
+
+.related-posts .blog-meta {
+    margin-bottom: 20px;
+}
+
+.pl-10 {
+    padding-left: 10px;
+    font-family: 'Fira Sans Condensed' !important;
+}
+.pr-10 {
+    padding-right: 10px;
+    font-family: 'Fira Sans Condensed' !important;
+}
+
+.blog-meta {
+    font-family: 'Fira Sans Condensed' !important;
+}

@@ -1,0 +1,28 @@
+.widget {
+    background: #fff;
+    margin: 0 0 1.5em;
+    padding: 30px 20px;
+    margin-bottom: 30px;
+    border-radius: 6px;
+    overflow: hidden;
+    display: flex;
+}
+
+.tagcloud a {
+    color: #444;
+    font-size: 15px !important;
+    padding: 8px 15px;
+    border-radius: 20px;
+    display: inline-block;
+    transition: 0.3s;
+    margin: 3px 2px;
+    background: #efefef;
+    text-decoration: none;
+    font-family: Open Sans;
+}
+
+.tagcloud a:hover {
+    color: #fff;
+    background-color: #e90101;
+
+}

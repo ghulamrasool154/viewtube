@@ -1,0 +1,36 @@
+.topspace-90 {
+    margin-top: 90px;
+    min-height: 100vh;
+}
+.main-container {
+    width: 100%;
+    overflow: hidden;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 25px;
+}
+
+.main-container.bg-white{
+    background: #fafafa;
+
+}
+.main-container.bg-change {
+    background: #111;
+}
+
+
+.sidebar-toggle.sssss {
+    position: fixed;
+    z-index: 99999999999999999999;
+    top: 25px;
+    left: 12px;
+}
+
+@media screen  and (max-width : 992px){
+    .sidebar-menu.open,
+    .sidebar-toggle.sssss{
+        display: none;
+    }
+
+    
+}

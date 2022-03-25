@@ -1,0 +1,31 @@
+
+
+.post-navigation {
+    border-radius: 6px;
+    padding: 30px;
+    background: #fff;
+    width: 100%;
+    overflow: hidden;
+    margin-top: 50px;
+}
+
+.post-navigation .nav-previous {
+    float: left;
+    color:  white;
+}
+.post-navigation .nav-next {
+    float: right;
+}
+
+.post-navigation .nav-previous a, .post-navigation .nav-next a, .checkout-button {
+    font-family: Fira Sans Condensed;
+    display: inline-block;
+    color: #fff;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    -webkit-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    vertical-align: middle;
+    text-decoration: none;
+}

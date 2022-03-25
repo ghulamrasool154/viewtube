@@ -1,0 +1,79 @@
+
+.carsoulslider button.slick-prev,
+.carsoulslider button.slick-next{
+    display: none !important;
+}
+
+
+.carsoulslider:hover .slick-next,
+.carsoulslider:hover .slick-prev 
+{
+    display: block !important;
+}
+
+.carsoulslider .slick-next:hover,
+.carsoulslider .slick-prev:hover{
+
+    background: linear-gradient(to right, #e90101, #e90101);
+    color: white !important;
+}
+
+.carsoulslider .slick-next,
+.carsoulslider .slick-prev {
+    width: 40px;
+    height: 40px;
+    z-index: 1;
+    border-radius: 50%;
+    background: white;
+    /* color: black !important; */
+    /* display: none ; */
+}
+.carsoulslider .slick-prev {
+    left: 40px;
+    
+    
+}
+button.slick-arrow.slick-next {
+    right: 40px;
+   
+}
+
+.carsoulslider .slick-prev:before {
+    content: "\f053";
+    color: black;
+    font-size: 20px;
+    font-family: 'FontAwesome';
+}
+.carsoulslider .slick-next:before {
+    content: '\f054';
+    color: black;
+    font-size: 20px;
+    font-family: 'FontAwesome';
+}
+
+
+.carsoulslider  .video-item-card{
+    margin:  0 10px 30px 10px;
+
+}
+.pb-70 {
+    padding-bottom: 70px;
+}
+/* 
+.videostyle{
+    height: 280px !important;
+} */
+
+@media screen  and (max-width : 500px){
+    .videostyle{
+        height:  215px !important;
+    }
+
+    .carsoulslider button.slick-prev,
+    .carsoulslider button.slick-next{
+    }
+    
+
+    
+}
+

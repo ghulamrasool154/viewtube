@@ -1,0 +1,41 @@
+.breadcrumbs {
+    background-image: url(/public/images/pexels-kyle-loftus-2510428.jpg);
+    border-radius: 15px;
+    text-align: center;
+    overflow: hidden;
+    padding: 90px 0;
+    margin-top: 30px;
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+}
+.breadcrumbs h1 {
+    font-size: 52px;
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 15px;
+    font-family:  Fira Sans Condensed;
+}
+.breadcrumbs ul {
+    list-style: none;
+    padding-left: 0;
+    display: inline-block;
+    margin: 0;
+}
+.breadcrumbs ul li {
+    position: relative;
+    float: left;
+    margin-right: 25px;
+    color: #ddd;
+}
+.breadcrumbs ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+@media screen and (max-width : 600px){
+    .breadcrumbs h1{
+        font-size: 25px;
+    }
+    
+}

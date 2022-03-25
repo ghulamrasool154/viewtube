@@ -1,0 +1,60 @@
+
+.input-text,
+input[type=email],
+input[type=password],
+input[type=search],
+input[type=text],
+input[type=url],
+textarea {
+    font-family: Open Sans;
+    width: 100%;
+    border: 1px solid #dfdfdf;
+    height: 50px;
+    padding: 0 15px;
+    border-radius: 50px;
+    -webkit-transition: .3s linear;
+    -o-transition: .3s linear;
+    transition: .3s linear;
+    background-color: transparent;
+}
+
+.inputFiled.dark{
+    border-color: #383838;
+    color: #dfdfdf;
+}
+
+label.inline,
+input[type="checkbox"]+label {
+    display: inline;
+    margin-left: 0.5rem;
+}
+
+input[type="checkbox"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    position: relative;
+    top: 2px;
+    display: inline-block;
+    margin: 0;
+    width: 19px;
+    min-width: 19px;
+    height: 19px;
+    background: #fff;
+    border-radius: 0;
+    border-style: solid;
+    border-width: 0.1rem;
+    border-color: #ddd;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    cursor: pointer;
+}
+
+input[type="checkbox"]:checked::before {
+    content: '✔';
+    position: absolute;
+    display: inline-block;
+    margin: -5px 0 0 2px;
+    height: 1.75rem;
+    width: 1.75rem;
+}
+

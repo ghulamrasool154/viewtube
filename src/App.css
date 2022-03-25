@@ -1,0 +1,21 @@
+*{
+  box-sizing: content-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Fira Sans Condensed', sans-serif;
+}
+
+h1, h2, h3, h4, h5{
+  font-family: 'Fira Sans Condensed', sans-serif;
+}
+p{
+  font-family: 'Open Sans';
+}
+textarea.focus-visible,
+input.focus-visible{
+  outline: none !important;
+}
+
+a{
+  text-decoration: none !important;
+}

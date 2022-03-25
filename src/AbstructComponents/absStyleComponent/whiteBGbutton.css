@@ -1,0 +1,23 @@
+.viewtube-btn{
+    background: transparent;
+    border: 2px solid #e90101;
+    font-family: Fira Sans Condensed;
+    display: inline-block;
+    padding: 12px 50px;
+    color: #e90101;
+    border-radius: 50px;
+    cursor: pointer;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    -webkit-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    vertical-align: middle;
+
+}
+.viewtube-btn:hover{
+    background-color: #e90101;
+    color:  white;
+    border: 2px solid #e90101;
+
+}

@@ -1,0 +1,224 @@
+.slick-list {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+.slick-track {
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.slick-initialized .slick-slide {
+    display: block;
+    width: 100%;
+}
+
+
+.slick-slide {
+    outline: none;
+}
+.slick-slide {
+    display: none;
+    float: left;
+    height: 100%;
+    min-height: 1px;
+    width: 1182px;
+    position: relative;
+    left: 0px;
+    top: 0px;
+    z-index: 999;
+    opacity: 1;
+}
+.slideshow-gallery .slider-for-vertical .gallery-block-item.style-1{
+    height: 720px;
+    background-image: url(/public//images/index.jpg);
+}
+.gallery-block-item.style-1 {
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 520px;
+    width: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.gallery-block-item.style-1 .gallery-block-content {
+    background: #000;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    padding: 35px 50px 35px;
+    z-index: 1;
+}
+
+.gallery-block-item.style-1 .gallery-block-content h2 {
+    font-size: 30px;
+    line-height: 35px;
+    margin-bottom: 25px;
+    font-weight: 600;
+
+}
+
+.gallery-block-item.style-1 .gallery-block-content h2 a{
+     color: #fff; 
+    font-family: Fira Sans Condensed;
+    text-decoration: none;
+    font-weight: bold;
+}
+.list-inline {
+    padding-left: 0;
+    list-style: none;
+}
+.gallery-block-item.style-1 .gallery-block-content ul li {
+    font-size: 18px;
+    color: #fff;
+}
+.list-inline-item:not(:last-child) {
+    margin-right: 0.5rem;
+}
+.list-inline-item {
+    display: inline-block;
+}
+.gallery-block-item.style-1 .gallery-block-content ul li {
+    font-size: 18px;
+    color: #fff !important;
+}
+
+.slideshow-gallery .list-inline-item span, 
+.slideshow-gallery .list-inline-item a{
+    color: white;
+    font-family: Open Sans;
+}
+.gallery-block-item.style-1 .gallery-block-content a img {
+    width: 40px !important;
+    
+}
+
+.gallery-block-item.style-1 .gallery-block-content ul li i {
+    margin-right: 5px;
+    font-size: 16px;
+}
+
+.gallery-block-item .popup-video {
+    position: absolute;
+    content: '';
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    font-size: 26px;
+    line-height: 80px;
+    color: #fff;
+    border-radius: 50%;
+    top: 35%;
+    left: 46%;
+    background: linear-gradient(to right, #e90101, #e90101);
+    z-index: 2;
+}
+
+/*  */
+
+
+.slideshow-gallery .slider-nav-vertical {
+    height: 720px;
+    overflow: hidden;
+}
+
+.slideshow-gallery .slider-nav-vertical .slideshow-gallery-item {
+    padding: 0 0 15px 0 !important;
+    width: 100%;
+}
+.slick-vertical .slick-slide {
+    display: block;
+    height: auto;
+    border: 1px solid transparent;
+}
+
+.slideshow-gallery .slider-nav-vertical .gallery-block-item {
+    height: 167px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.slick-slide img{
+    object-fit: cover;
+}
+
+
+
+
+
+
+#video-cover {
+    width: 100%;
+    position: fixed;
+    z-index: 9999999999999999999999;
+    height: 100% ;
+    top: 0;
+    left: 0;
+    background-color: #0b0b0b;
+    opacity: 0.8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.videosection {
+    background: white;
+    height: 450px;
+    width: 900px;
+    margin: auto;
+    max-width: 100%;
+    max-height: 100%;
+    position: relative;
+}
+
+#video-cover .videosection .video{
+    /* width: 100%; */
+    /* max-width: 900px; */
+
+    height: 100%;
+}
+#video-cover .videosection .close-button {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -30px;
+    right: 0;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width : 992px){
+    .slideshow-gallery .slider-nav-vertical,
+    .slideshow-gallery .slider-for-vertical .gallery-block-item.style-1{
+        height: 600px;
+    }
+    .slideshow-gallery .slider-nav-vertical .gallery-block-item{
+        height: 140px;
+        margin-bottom: 10px;
+    }
+    .slick-initialized .slick-slide{
+        width: 100%;
+    }
+  
+}

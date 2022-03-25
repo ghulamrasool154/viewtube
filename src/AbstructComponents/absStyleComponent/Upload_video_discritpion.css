@@ -1,0 +1,15 @@
+
+.Upload_video_discritpion ,
+p,
+label
+{
+    font-family: Open Sans !important;
+}
+.Upload_video_discritpion .form-check {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.Upload_video_discritpion .form-check  input{
+margin-bottom: 0 !important;
+margin-right: 7px;
+}
