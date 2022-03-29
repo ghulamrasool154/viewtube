@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/viewtube/static/css/main.6924a88a.css",
-    "main.js": "/viewtube/static/js/main.3fe28752.js",
+    "main.css": "/viewtube/static/css/main.6d60f4ea.css",
+    "main.js": "/viewtube/static/js/main.d81d89fb.js",
     "static/js/787.589948f5.chunk.js": "/viewtube/static/js/787.589948f5.chunk.js",
     "static/media/logo-alt.png": "/viewtube/static/media/logo-alt.96761c22f1a13422faef.png",
     "static/media/logo.svg": "/viewtube/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
@@ -10,12 +10,16 @@
     "static/media/slick.ttf": "/viewtube/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "index.html": "/viewtube/index.html",
     "static/media/slick.woff": "/viewtube/static/media/slick.295183786cd8a1389865.woff",
-    "main.6924a88a.css.map": "/viewtube/static/css/main.6924a88a.css.map",
-    "main.3fe28752.js.map": "/viewtube/static/js/main.3fe28752.js.map",
+    "static/media/angle-left-solid.svg": "/viewtube/static/media/angle-left-solid.f82d9bfa73ee379ae304.svg",
+    "static/media/chevron-left-solid.svg": "/viewtube/static/media/chevron-left-solid.5e63a027af64c2716878.svg",
+    "static/media/angle-right-solid.svg": "/viewtube/static/media/angle-right-solid.0b4b61bc0cff4bf17510.svg",
+    "static/media/chevron-right-solid.svg": "/viewtube/static/media/chevron-right-solid.0b4b61bc0cff4bf17510.svg",
+    "main.6d60f4ea.css.map": "/viewtube/static/css/main.6d60f4ea.css.map",
+    "main.d81d89fb.js.map": "/viewtube/static/js/main.d81d89fb.js.map",
     "787.589948f5.chunk.js.map": "/viewtube/static/js/787.589948f5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6924a88a.css",
-    "static/js/main.3fe28752.js"
+    "static/css/main.6d60f4ea.css",
+    "static/js/main.d81d89fb.js"
   ]
 }
